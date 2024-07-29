@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 import { useGlobalContext } from '../context/global';
+import { setSelectedAnime } from '../redux/animeSlice'; // Periksa jalur ini
 import styled from 'styled-components';
 import Sidebar from './Sidebar';
 
